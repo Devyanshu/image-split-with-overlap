@@ -1,6 +1,8 @@
 ## Split any image with any degree of overlap.
 ### Divide image of any size into smaller images of fixed size with any degree of overlapping.
 
+#### Overlapping means some part of the previous image is repeated in the current image. For example, 50% overlap means half of the previous image is repeated in the current image, both horizontally and vertically.
+
 ### Example 
 #### Sample Image(580x435)
 ![Sample Image](images/sample.jpg)
