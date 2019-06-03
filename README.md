@@ -3,6 +3,8 @@
 
 #### Overlapping means some part of the previous image is repeated in the current image. For example, 50% overlap means half of the previous image is repeated in the current image, both horizontally and vertically.
 
+#### If the image is not completely divisible, the degree of overlapping on the boundary images are increased such that they become divisible.
+
 ### Example 
 #### Sample Image(580x435)
 ![Sample Image](images/sample.jpg)
