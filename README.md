@@ -5,6 +5,8 @@
 
 #### If the image is not completely divisible, the degree of overlapping on the boundary images are increased such that they become divisible.
 
+#### The splitting of the image is done from left to right, top to bottom. This is the reason why the left-most and bottom images have often more overlapping.
+
 ### Example 
 #### Sample Image(580x435)
 ![Sample Image](images/sample.jpg)
