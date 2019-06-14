@@ -12,7 +12,7 @@ def start_points(size, split_size, overlap=0):
     counter = 1
     while True:
         pt = stride * counter
-        if pt + split_size > size:
+        if pt + split_size >= size:
             points.append(size - split_size)
             break
         else:
